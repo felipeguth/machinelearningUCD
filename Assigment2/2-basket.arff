@@ -1,0 +1,56 @@
+% COMP30120 2015 - Assignment 2, Dataset 2
+% Dataset basketball for student ID number 14210231
+@relation basketball-14210231
+
+@attribute Opponent {Boston_Celtics,Brooklyn_Nets,Charlotte_Hornets,Chicago_Bulls,Cleveland_Cavaliers,Dallas_Mavericks,Denver_Nuggets,Detroit_Pistons,Golden_State,Houston_Rockets,Indiana_Pacers,Memphis_Grizzlies,Miami_Heat,Milwaukee_Bucks,Minnesota_,New_York_Knicks,Phoenix_Suns,Sacramento_Kings,Toronto_Raptors,Washington_Wizards}
+@attribute Opp_Free_Throws_Att numeric
+@attribute Opp_Fouls numeric
+@attribute Opp_Field_Goals_Made numeric
+@attribute Def_Rebounds numeric
+@attribute Opp_Steals numeric
+@attribute Opp_Free_Throws_Made numeric
+@attribute Opp_Field_Goal_Pct numeric
+@attribute Free_Throw_Pct numeric
+@attribute Fouls numeric
+@attribute Home {Home,Away}
+@attribute Opp_Free_Throw_Pct numeric
+@attribute Free_Throws_Made numeric
+@attribute Turnovers numeric
+@attribute Opp_Blocks numeric
+@attribute Opp_Off_Rebounds numeric
+@attribute Field_Goals_Att numeric
+@attribute 3Pt_Field_Goal_Pct numeric
+@attribute Steals numeric
+@attribute Total_Rebounds numeric
+@attribute Off_Rebounds numeric
+@attribute 3Pt_Field_Goals_Att numeric
+@attribute Field_Goals_Made numeric
+@attribute Opp_3Pt_Field_Goals_Made numeric
+@attribute Opp_Turnovers numeric
+@attribute Opp_3Pt_Field_Goals_Att numeric
+@attribute Opp_3Pt_Field_Goal_Pct numeric
+@attribute Opp_Total_Rebounds numeric
+@attribute Opp_Def_Rebounds numeric
+@attribute Result {Win,Lose}
+
+@data
+New_York_Knicks,15,16,25,25,0,10,0.052,0.67,24,Home,0.561,12,14,0,10,63,0.235,7,45,19,17,28,5,21,16,0.253,36,14,Win
+Chicago_Bulls,13,18,17,23,6,2,0.622,0.519,12,Home,0.628,17,13,0,13,52,0.219,0,35,16,17,25,5,10,25,0.636,34,18,Win
+Charlotte_Hornets,25,17,19,13,12,19,0.339,1.004,22,Home,0.603,17,13,1,13,54,0.202,3,33,16,22,20,10,10,16,0.258,32,19,Lose
+Phoenix_Suns,16,14,31,21,8,13,0.802,1.081,13,Away,0.94,20,13,5,10,55,0.414,7,25,5,22,28,5,13,13,0.589,30,18,Win
+Miami_Heat,16,27,19,30,10,13,0.672,0.845,16,Away,0.801,31,12,3,5,46,0.568,10,47,11,19,14,5,7,16,0,27,20,Win
+Denver_Nuggets,15,16,25,15,9,12,0.411,0.809,22,Away,0.669,12,22,0,14,48,0.204,10,31,12,16,13,2,19,11,0.514,33,20,Lose
+Indiana_Pacers,16,16,26,20,8,11,0.518,0.326,15,Away,0.494,16,20,6,15,42,0.737,4,38,8,13,30,9,23,10,0.315,25,14,Win
+Minnesota_,12,25,23,26,3,4,0.297,0.877,13,Home,0.738,22,15,0,18,49,0.108,0,41,11,19,23,11,16,25,0.447,38,23,Win
+Golden_State,12,24,25,24,13,7,0.594,0.259,13,Home,0.761,12,23,3,3,38,0.386,5,35,11,7,22,3,18,13,0,27,22,Win
+Sacramento_Kings,22,12,25,20,3,18,0.407,0.917,25,Away,0.934,14,18,3,14,53,0.3,9,27,11,22,13,8,21,12,0.638,39,26,Lose
+Memphis_Grizzlies,23,24,14,20,8,14,0.363,0.976,27,Away,0.813,21,16,3,4,49,0,13,36,14,14,16,7,19,13,0.039,21,18,Win
+Toronto_Raptors,27,21,13,25,9,22,0.631,0.774,16,Home,0.592,14,15,0,15,48,0.448,5,39,6,22,16,2,18,17,0,41,29,Lose
+Dallas_Mavericks,21,20,26,20,10,12,0.743,0.97,15,Away,0.939,18,18,0,10,55,0.68,7,31,8,22,28,9,10,13,0.385,32,23,Win
+Washington_Wizards,20,21,30,19,11,14,0.429,0.375,18,Away,0.465,14,18,1,4,43,0.419,3,26,11,19,21,6,8,20,0.621,28,21,Lose
+Milwaukee_Bucks,25,17,29,26,7,25,0.59,0.251,21,Away,0.766,16,10,13,17,61,0.079,10,32,11,27,35,5,15,21,0.603,46,25,Win
+Brooklyn_Nets,16,12,16,18,10,12,0.572,0.651,17,Home,0.449,6,8,1,4,59,0.528,4,32,18,24,21,4,17,8,0.026,33,20,Win
+Detroit_Pistons,26,14,20,30,8,20,0.243,0.541,16,Home,0.653,15,14,0,14,53,0.206,7,37,4,22,19,1,14,14,0.371,45,33,Lose
+Houston_Rockets,18,25,28,22,5,14,0.627,0.538,15,Away,0.737,19,12,1,5,46,0.218,3,28,6,11,21,11,8,13,0.553,34,19,Lose
+Boston_Celtics,13,24,18,36,5,13,0.078,0.935,23,Away,0.348,27,17,5,7,48,0.456,4,41,14,15,20,5,15,17,0.529,24,23,Win
+Cleveland_Cavaliers,23,20,25,13,11,24,0.629,0.919,17,Home,1.021,20,15,2,14,49,0,2,34,18,21,19,6,11,18,0.196,28,15,Lose
